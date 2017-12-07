@@ -1,0 +1,57 @@
+div {
+  /*border: 1px solid white;*/
+}
+
+body {
+  background-color: #817A81;
+  color: #272635;
+}
+
+#particles-js {
+  background-color: #817A81;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#intro {
+  margin: 10%;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 70px;
+  margin: 2px;
+  /*padding: 1%;*/
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 2px;
+  /*padding: 1%;*/
+}
+
+
+#about {
+  background-color: yellow;
+}
+
+.intro-text {
+  display: inline-block;
+  padding: 1%;
+}
+
+
+svg {
+  /*border: 2px solid red;*/
+  margin: 10px;
+}
+
+
+path {
+    color: #272635;
+}
