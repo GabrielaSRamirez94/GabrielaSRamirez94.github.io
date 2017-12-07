@@ -1,0 +1,13 @@
+div {
+  border: 1px solid red;
+}
+
+#particles-js {
+  background-color: #272635;
+  position: relative;
+}
+
+#intro {
+  margin: 10%;
+  position: absolute;
+}
