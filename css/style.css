@@ -1,3 +1,17 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  width:100%;
+  height:100%;
+}
+
+canvas {
+  display:block;
+}
+
 div {
   /*border: 1px solid white;*/
 }
@@ -7,6 +21,9 @@ body {
   color: #272635;
 }
 
+
+
+/*particles background*/
 #particles-js {
   background-color: #817A81;
   position: relative;
@@ -14,30 +31,9 @@ body {
   width: 100%;
 }
 
+/*intro section*/
 #intro {
-  margin: 10%;
   position: absolute;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  font-size: 70px;
-  margin: 2px;
-  /*padding: 1%;*/
-}
-
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 35px;
-  margin: 2px;
-  /*padding: 1%;*/
-}
-
-
-#about {
-  background-color: yellow;
 }
 
 .intro-text {
@@ -45,13 +41,95 @@ h2 {
   padding: 1%;
 }
 
-
+/*link icons styling*/
 svg {
-  /*border: 2px solid red;*/
   margin: 10px;
 }
 
-
 path {
+    color: #272635;
+}
+
+/*about section*/
+.about-text {
+  margin-top: 3%;
+  padding: 1%;
+}
+
+/*font styling*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 80px;
+  margin: 2px;
+  /*padding: 1%;*/
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 2px;
+  /*padding: 1%;*/
+}
+
+
+h2 {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 1px;
+  font-size: 25px;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 1px;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+    font-weight: 500;
     color: #272635;
 }
