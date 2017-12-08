@@ -12,20 +12,15 @@ canvas {
   display:block;
 }
 
-div {
-  /*border: 1px solid white;*/
-}
 
 body {
-  background-color: #817A81;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
   color: #272635;
 }
 
-
-
 /*particles background*/
 #particles-js {
-  background-color: #817A81;
+  /*background-color: #817A81;*/
   position: relative;
   height: 100%;
   width: 100%;
