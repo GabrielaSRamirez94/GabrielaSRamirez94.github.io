@@ -45,6 +45,11 @@ path {
     color: #272635;
 }
 
+
+path:hover {
+  color: #817A81;
+}
+
 /*about section*/
 .about-text {
   margin-top: 3%;
@@ -127,4 +132,8 @@ p {
 a {
     font-weight: 500;
     color: #272635;
+}
+
+a:hover {
+  color: #817A81;
 }
